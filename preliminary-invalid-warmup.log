@@ -1,0 +1,8 @@
+Loading pinned BF16 target and original DFlash drafter
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:01<00:04,  1.17s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:02<00:03,  1.21s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:03<00:02,  1.22s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:04<00:01,  1.13s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:05<00:00,  1.17it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:05<00:00,  1.00s/it]
+`generation_config` default values have been modified to match model-specific defaults: {'do_sample': True, 'temperature': 0.6, 'top_k': 20, 'top_p': 0.95, 'bos_token_id': 151643}. If this is not desired, please set these values explicitly.
+SMOKE {"equal": true, "first_difference": null} '4<|im_end|>' '4<|im_end|>'
+Warming both methods on all ten prepared prompts (excluded)
+Warmup complete: code_01
+Warmup complete: code_02
+Terminated

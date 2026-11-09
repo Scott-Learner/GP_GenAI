@@ -1,0 +1,71 @@
+{
+  "status": "complete",
+  "started_utc": "2026-11-09T04:41:02.964599+00:00",
+  "project": "/mnt/Playground/dflash-minimal",
+  "runtime": "/tmp/dflash-minimal-runtime",
+  "python": "3.13.5",
+  "versions": {
+    "torch": "2.13.0+cu130",
+    "transformers": "4.57.3",
+    "accelerate": "1.15.0",
+    "huggingface-hub": "0.36.2",
+    "safetensors": "0.8.0"
+  },
+  "torch_cuda": "13.0",
+  "gpu": "NVIDIA A100-PCIE-40GB",
+  "compute_capability": [
+    8,
+    0
+  ],
+  "cpu_affinity": [
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    60,
+    61,
+    62,
+    63
+  ],
+  "torch_cpu_threads": 6,
+  "official_commit": "7d2ea1e9828b058fbed637572f65ef86fb270195",
+  "official_worktree_dirty": "",
+  "model_revisions": {
+    "Qwen/Qwen3-8B": {
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+      "lastModified": "2025-07-26T03:49:13.000Z"
+    },
+    "z-lab/Qwen3-8B-DFlash-b16": {
+      "revision": "9b41424b7109f9c5413454f481b09a82b85333f4",
+      "lastModified": "2026-04-07T14:26:36.000Z"
+    }
+  },
+  "prompts_sha256": "f75b419bad92b8cc0e7704344a2eb87ba341f2cae15eda81e04646b679723ce0",
+  "benchmark_sha256": "fa4655ae173fd5c5b96e94abfd07a4e2dbf00992de97063e2688cd1bec12b5a2",
+  "config": {
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 1,
+    "concurrency": 1,
+    "thinking": false,
+    "baseline_do_sample": false,
+    "use_model_defaults": false,
+    "temperature": 0,
+    "max_new_tokens": 256,
+    "context_limit": 2048,
+    "block_size": 16,
+    "stop_token_ids": [
+      151645
+    ],
+    "baseline": "Transformers generate with use_cache=True, logits_to_keep=1",
+    "timing": "CUDA-synchronized wall clock around generation only, includes prefill and full decode, includes official DFlash stats sync overhead",
+    "memory": "Both models remain on GPU for all calls; PyTorch peaks exact allocator values, NVML device usage sampled every 10ms. Allocation peaks include persistent model weights.",
+    "warmup": "One full 256-token-limit call per method per prompt, excluded from results",
+    "decode_timing": "Not reported: official old code excludes initial drafter prefill; outer E2E includes it"
+  },
+  "completed_utc": "2026-11-09T04:46:29.662189+00:00"
+}

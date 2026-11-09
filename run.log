@@ -1,0 +1,102 @@
+Loading pinned BF16 target and original DFlash drafter
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:01<00:04,  1.09s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:02<00:03,  1.14s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:03<00:02,  1.13s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:04<00:01,  1.04s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:04<00:00,  1.27it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:04<00:00,  1.08it/s]
+AR_POLICY_GREEDY_CONFIRMED greedy_search
+SMOKE {"equal": true, "first_difference": null} '4<|im_end|>' '4<|im_end|>'
+Warming both methods on all ten prepared prompts (excluded)
+Warmup complete: code_01
+Warmup complete: code_02
+Warmup complete: code_03
+Warmup complete: code_04
+Warmup complete: math_01
+Warmup complete: math_02
+Warmup complete: math_03
+Warmup complete: qa_01
+Warmup complete: qa_02
+Warmup complete: qa_03
+FORMAL MEASUREMENTS START
+code_01 repeat=0 ar=8.7371s/256tok dflash=1.3087s/256tok speedup=6.676 equal=True first_difference=None
+code_02 repeat=0 ar=8.7812s/256tok dflash=2.0761s/256tok speedup=4.230 equal=False first_difference=142
+code_03 repeat=0 ar=6.2371s/181tok dflash=1.3843s/178tok speedup=4.506 equal=False first_difference=139
+code_04 repeat=0 ar=9.1029s/256tok dflash=1.4721s/252tok speedup=6.184 equal=False first_difference=100
+math_01 repeat=0 ar=8.8319s/256tok dflash=1.5977s/256tok speedup=5.528 equal=True first_difference=None
+math_02 repeat=0 ar=6.8471s/200tok dflash=0.8621s/176tok speedup=7.942 equal=False first_difference=88
+math_03 repeat=0 ar=7.6026s/221tok dflash=1.5041s/221tok speedup=5.054 equal=True first_difference=None
+qa_01 repeat=0 ar=3.2824s/96tok dflash=1.7000s/96tok speedup=1.931 equal=True first_difference=None
+qa_02 repeat=0 ar=3.0150s/88tok dflash=1.8166s/87tok speedup=1.660 equal=False first_difference=37
+qa_03 repeat=0 ar=3.1241s/92tok dflash=2.0469s/92tok speedup=1.526 equal=True first_difference=None
+code_01 repeat=1 ar=8.8161s/256tok dflash=1.3240s/256tok speedup=6.659 equal=True first_difference=None
+code_02 repeat=1 ar=9.0370s/256tok dflash=2.1299s/256tok speedup=4.243 equal=False first_difference=142
+code_03 repeat=1 ar=6.1051s/181tok dflash=1.4052s/178tok speedup=4.345 equal=False first_difference=139
+code_04 repeat=1 ar=8.6524s/256tok dflash=1.4384s/252tok speedup=6.015 equal=False first_difference=100
+math_01 repeat=1 ar=8.6471s/256tok dflash=1.5780s/256tok speedup=5.480 equal=True first_difference=None
+math_02 repeat=1 ar=6.7827s/200tok dflash=0.8515s/176tok speedup=7.966 equal=False first_difference=88
+math_03 repeat=1 ar=7.4659s/221tok dflash=1.4822s/221tok speedup=5.037 equal=True first_difference=None
+qa_01 repeat=1 ar=3.2319s/96tok dflash=1.6601s/96tok speedup=1.947 equal=True first_difference=None
+qa_02 repeat=1 ar=3.0240s/88tok dflash=1.8244s/87tok speedup=1.658 equal=False first_difference=37
+qa_03 repeat=1 ar=3.3692s/92tok dflash=2.1162s/92tok speedup=1.592 equal=True first_difference=None
+code_01 repeat=2 ar=8.8764s/256tok dflash=1.3160s/256tok speedup=6.745 equal=True first_difference=None
+code_02 repeat=2 ar=8.7307s/256tok dflash=2.0488s/256tok speedup=4.261 equal=False first_difference=142
+code_03 repeat=2 ar=6.1754s/181tok dflash=1.3732s/178tok speedup=4.497 equal=False first_difference=139
+code_04 repeat=2 ar=8.7221s/256tok dflash=1.4501s/252tok speedup=6.015 equal=False first_difference=100
+math_01 repeat=2 ar=8.7228s/256tok dflash=1.5948s/256tok speedup=5.470 equal=True first_difference=None
+math_02 repeat=2 ar=7.0200s/200tok dflash=0.8579s/176tok speedup=8.183 equal=False first_difference=88
+math_03 repeat=2 ar=7.7399s/221tok dflash=1.5684s/221tok speedup=4.935 equal=True first_difference=None
+qa_01 repeat=2 ar=3.3127s/96tok dflash=1.7528s/96tok speedup=1.890 equal=True first_difference=None
+qa_02 repeat=2 ar=3.0075s/88tok dflash=1.8390s/87tok speedup=1.635 equal=False first_difference=37
+qa_03 repeat=2 ar=3.1523s/92tok dflash=2.0775s/92tok speedup=1.517 equal=True first_difference=None
+{
+  "methods": {
+    "ar": {
+      "runs": 30,
+      "generated_tokens": 5706,
+      "total_elapsed_s": 196.15243147686124,
+      "tokens_per_s": 29.089621561347293,
+      "peak_allocated_bytes": 18533373440,
+      "peak_reserved_bytes": 18620612608,
+      "peak_device_bytes": 19685113856
+    },
+    "dflash": {
+      "runs": 30,
+      "generated_tokens": 5610,
+      "total_elapsed_s": 47.45692081004381,
+      "tokens_per_s": 118.21247363382868,
+      "peak_allocated_bytes": 18565051904,
+      "peak_reserved_bytes": 18620612608,
+      "peak_device_bytes": 19685113856
+    }
+  },
+  "total_time_speedup": 4.133273464201399,
+  "throughput_ratio": 4.0637336372537405,
+  "per_prompt_speedup": {
+    "code_01": 6.69324045482288,
+    "code_02": 4.244541601604537,
+    "code_03": 4.448468503059795,
+    "code_04": 6.071967115839941,
+    "math_01": 5.492544657144481,
+    "math_02": 8.030393483772563,
+    "math_03": 5.0075737724087634,
+    "qa_01": 1.9220006632555908,
+    "qa_02": 1.6508277800189208,
+    "qa_03": 1.5456331554590417
+  },
+  "prompt_speedup_median": 4.728021137734279,
+  "prompt_speedup_range": [
+    1.5456331554590417,
+    8.030393483772563
+  ],
+  "equal_pairs": 15,
+  "total_pairs": 30,
+  "mean_acceptance_length": 5.62089552238806,
+  "within_method_repeat_consistency": {
+    "ar": true,
+    "dflash": true
+  }
+}
+{
+  "audit": "passed",
+  "rows": 60,
+  "pairs": 30,
+  "equal_pairs": 15,
+  "speedup": 4.133273464201399,
+  "report": "/mnt/Playground/dflash-minimal/results/RESULTS.md"
+}

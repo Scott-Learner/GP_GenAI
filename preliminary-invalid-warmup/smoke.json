@@ -1,0 +1,40 @@
+{
+  "ar": {
+    "generated_tokens": 2,
+    "elapsed_s": 2.478681556880474,
+    "tokens_per_s": 0.806880575057445,
+    "peak_allocated_bytes": 18501018624,
+    "peak_reserved_bytes": 18513657856,
+    "peak_device_bytes": 19578159104,
+    "acceptance_lengths": [],
+    "mean_acceptance_length": "",
+    "tokens": [
+      19,
+      151645
+    ],
+    "text": "4<|im_end|>",
+    "prompt_tokens": 26
+  },
+  "dflash": {
+    "generated_tokens": 2,
+    "elapsed_s": 0.24804335832595825,
+    "tokens_per_s": 8.063106440333565,
+    "peak_allocated_bytes": 18520080384,
+    "peak_reserved_bytes": 18526240768,
+    "peak_device_bytes": 19590742016,
+    "acceptance_lengths": [
+      2
+    ],
+    "mean_acceptance_length": 2,
+    "tokens": [
+      19,
+      151645
+    ],
+    "text": "4<|im_end|>",
+    "prompt_tokens": 26
+  },
+  "comparison": {
+    "equal": true,
+    "first_difference": null
+  }
+}

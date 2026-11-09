@@ -1,0 +1,24 @@
+{
+  "playground": "/mnt/Playground",
+  "project": "/mnt/Playground/dflash-minimal",
+  "runtime": "/tmp/dflash-minimal-runtime",
+  "python": "3.13.5",
+  "cpu_affinity": [
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    60,
+    61,
+    62,
+    63
+  ],
+  "official_commit": "7d2ea1e9828b058fbed637572f65ef86fb270195",
+  "gpu": "Mon Nov  9 12:04:33 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 610.57.04              KMD Version: 610.57.04     CUDA UMD Version: 13.3     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA A100-PCIE-40GB          On  |   00000000:B2:00.0 Off |                    0 |\n| N/A   30C    P0             34W /  250W |       0MiB /  40960MiB |      0%      Default |\n|                                         |                        |             Disabled |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|  No running processes found                                                             |\n+-----------------------------------------------------------------------------------------+\n",
+  "disk": "Filesystem           Size  Used Avail Use% Mounted on\noverlay              200G  4.3G  196G   3% /\ntmpfs                 64M     0   64M   0% /dev\nfx                   2.0T  950G  1.1T  48% /public\nfx                   5.0G     0  5.0G   0% /mnt\nshm                   45G     0   45G   0% /dev/shm\n/dev/mapper/vg0-lv0  5.3T  1.9T  3.4T  36% /etc/hosts\ntmpfs                378G     0  378G   0% /sys/fs/cgroup\ntmpfs                 76G  5.3M   76G   1% /run/nvidia-persistenced/socket\n/dev/sda1            439G   41G  381G  10% /usr/bin/nvidia-smi\ntmpfs                4.0K  4.0K     0 100% /run/nvidia-ctk-hook8f9488b4-b1d5-4f7c-b3d2-71e3ca03dc70\ntmpfs                378G     0  378G   0% /proc/acpi\ntmpfs                378G     0  378G   0% /proc/scsi\ntmpfs                378G     0  378G   0% /sys/firmware\n",
+  "ram": "               total        used        free      shared  buff/cache   available\nMem:            90Gi       1.6Gi        84Gi       0.0Ki       4.0Gi        88Gi\nSwap:          1.9Gi          0B       1.9Gi\n"
+}

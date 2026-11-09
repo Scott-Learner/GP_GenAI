@@ -1,0 +1,10 @@
+{
+  "Qwen/Qwen3-8B": {
+    "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+    "lastModified": "2025-07-26T03:49:13.000Z"
+  },
+  "z-lab/Qwen3-8B-DFlash-b16": {
+    "revision": "9b41424b7109f9c5413454f481b09a82b85333f4",
+    "lastModified": "2026-04-07T14:26:36.000Z"
+  }
+}

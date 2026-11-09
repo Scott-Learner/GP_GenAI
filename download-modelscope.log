@@ -1,0 +1,128 @@
+Pinned model bytes 18494691896
+range tasks 539 workers 32
+finished ranges 10 / 539 seconds 78.3
+finished ranges 20 / 539 seconds 82.6
+finished ranges 30 / 539 seconds 82.6
+finished ranges 40 / 539 seconds 108.4
+finished ranges 50 / 539 seconds 138.4
+finished ranges 60 / 539 seconds 144.9
+finished ranges 70 / 539 seconds 147.5
+finished ranges 80 / 539 seconds 179.9
+finished ranges 90 / 539 seconds 196.8
+finished ranges 100 / 539 seconds 214.8
+finished ranges 110 / 539 seconds 239.5
+finished ranges 120 / 539 seconds 239.5
+finished ranges 130 / 539 seconds 266.1
+finished ranges 140 / 539 seconds 293.8
+finished ranges 150 / 539 seconds 293.8
+range retry 2579496960-2613051391 1 URLError(gaierror(-3, 'Temporary failure in name resolution'))
+finished ranges 160 / 539 seconds 304.5
+finished ranges 170 / 539 seconds 322.6
+range retry 2948595712-2982150143 1 URLError(gaierror(-3, 'Temporary failure in name resolution'))
+range retry 3082813440-3116367871 1 URLError(gaierror(-3, 'Temporary failure in name resolution'))
+finished ranges 180 / 539 seconds 354.0
+finished ranges 190 / 539 seconds 377.5
+finished ranges 200 / 539 seconds 391.1
+range retry 319277176-352831607 1 URLError(gaierror(-3, 'Temporary failure in name resolution'))
+finished ranges 210 / 539 seconds 421.0
+range retry 789039224-822593655 1 URLError(gaierror(-3, 'Temporary failure in name resolution'))
+finished ranges 220 / 539 seconds 436.2
+range retry 856148088-889702519 1 URLError(gaierror(-3, 'Temporary failure in name resolution'))
+range retry 956811384-990365815 1 URLError(gaierror(-3, 'Temporary failure in name resolution'))
+finished ranges 230 / 539 seconds 451.6
+finished ranges 240 / 539 seconds 461.2
+finished ranges 250 / 539 seconds 486.6
+finished ranges 260 / 539 seconds 534.6
+finished ranges 270 / 539 seconds 537.9
+finished ranges 280 / 539 seconds 540.5
+finished ranges 290 / 539 seconds 581.3
+finished ranges 300 / 539 seconds 594.7
+finished ranges 310 / 539 seconds 607.5
+finished ranges 320 / 539 seconds 625.2
+finished ranges 330 / 539 seconds 666.0
+finished ranges 340 / 539 seconds 666.0
+finished ranges 350 / 539 seconds 682.5
+finished ranges 360 / 539 seconds 713.1
+range retry 1754735934-1788290365 1 URLError(gaierror(-3, 'Temporary failure in name resolution'))
+finished ranges 370 / 539 seconds 723.5
+range retry 1922508094-1956062525 1 URLError(gaierror(-3, 'Temporary failure in name resolution'))
+range retry 2358715710-2392270141 1 URLError(gaierror(-3, 'Temporary failure in name resolution'))
+finished ranges 380 / 539 seconds 753.3
+range retry 2727814462-2761368893 1 URLError(gaierror(-3, 'Temporary failure in name resolution'))
+range retry 2761368894-2794923325 1 URLError(gaierror(-3, 'Temporary failure in name resolution'))
+range retry 3029804350-3063358781 1 URLError(gaierror(-3, 'Temporary failure in name resolution'))
+range retry 1233125376-1266679807 1 URLError(gaierror(-3, 'Temporary failure in name resolution'))
+finished ranges 390 / 539 seconds 1156.4
+finished ranges 400 / 539 seconds 1156.4
+finished ranges 410 / 539 seconds 1156.4
+finished ranges 420 / 539 seconds 1156.4
+finished ranges 430 / 539 seconds 1156.4
+finished ranges 440 / 539 seconds 1156.4
+finished ranges 450 / 539 seconds 1156.4
+finished ranges 460 / 539 seconds 1156.4
+finished ranges 470 / 539 seconds 1156.4
+finished ranges 480 / 539 seconds 1156.4
+finished ranges 490 / 539 seconds 1156.4
+finished ranges 500 / 539 seconds 1156.4
+Resume only remaining bytes with fresh connections
+range tasks 539 workers 8
+finished ranges 10 / 539 seconds 0.0
+finished ranges 20 / 539 seconds 0.0
+finished ranges 30 / 539 seconds 0.0
+finished ranges 40 / 539 seconds 0.0
+finished ranges 50 / 539 seconds 0.0
+finished ranges 60 / 539 seconds 0.0
+finished ranges 70 / 539 seconds 0.0
+finished ranges 80 / 539 seconds 0.0
+finished ranges 90 / 539 seconds 0.0
+finished ranges 100 / 539 seconds 0.0
+finished ranges 110 / 539 seconds 0.0
+finished ranges 120 / 539 seconds 0.0
+finished ranges 130 / 539 seconds 0.0
+finished ranges 140 / 539 seconds 0.0
+finished ranges 150 / 539 seconds 0.0
+finished ranges 160 / 539 seconds 0.0
+finished ranges 170 / 539 seconds 0.0
+finished ranges 180 / 539 seconds 0.0
+finished ranges 190 / 539 seconds 0.0
+finished ranges 200 / 539 seconds 0.0
+finished ranges 210 / 539 seconds 0.0
+finished ranges 220 / 539 seconds 0.0
+finished ranges 230 / 539 seconds 0.0
+finished ranges 240 / 539 seconds 0.0
+finished ranges 250 / 539 seconds 0.0
+finished ranges 260 / 539 seconds 0.0
+finished ranges 270 / 539 seconds 0.0
+finished ranges 280 / 539 seconds 0.0
+finished ranges 290 / 539 seconds 0.0
+finished ranges 300 / 539 seconds 0.0
+finished ranges 310 / 539 seconds 0.0
+finished ranges 320 / 539 seconds 0.0
+finished ranges 330 / 539 seconds 0.0
+finished ranges 340 / 539 seconds 0.0
+finished ranges 350 / 539 seconds 0.0
+finished ranges 360 / 539 seconds 0.0
+finished ranges 370 / 539 seconds 0.0
+finished ranges 380 / 539 seconds 0.0
+finished ranges 390 / 539 seconds 0.0
+finished ranges 400 / 539 seconds 0.0
+finished ranges 410 / 539 seconds 0.0
+finished ranges 420 / 539 seconds 0.0
+finished ranges 430 / 539 seconds 0.0
+finished ranges 440 / 539 seconds 0.0
+finished ranges 450 / 539 seconds 0.0
+finished ranges 460 / 539 seconds 0.0
+finished ranges 470 / 539 seconds 0.0
+finished ranges 480 / 539 seconds 0.0
+finished ranges 490 / 539 seconds 0.0
+finished ranges 500 / 539 seconds 0.0
+finished ranges 510 / 539 seconds 2.2
+finished ranges 520 / 539 seconds 2.2
+finished ranges 530 / 539 seconds 2.2
+verified /tmp/dflash-minimal-runtime/models/target/model-00001-of-00005.safetensors 31d6a825ae35f11fb85b195b4c42c146c051e446433125a215336abdf95cbf5f
+verified /tmp/dflash-minimal-runtime/models/target/model-00002-of-00005.safetensors 5991236cea6fe21f3d43cab0f0e84448734fbbe0789816202989f2ddc9d18282
+verified /tmp/dflash-minimal-runtime/models/target/model-00003-of-00005.safetensors c5185c4794be2d8a9784d5753c9922db38df478ce11f9ed0b415b7304d896836
+verified /tmp/dflash-minimal-runtime/models/target/model-00004-of-00005.safetensors b5ee7de71fbf17db3d5704e0c8f2bc7d005ca9e1d7ca2aeb19827b0cfcaa917a
+verified /tmp/dflash-minimal-runtime/models/target/model-00005-of-00005.safetensors 20c2d6366ab85c90786ccdd829cd2b9e7d30ef3b2ebbb998280e7e4014b542ff
+verified /tmp/dflash-minimal-runtime/models/draft/model.safetensors c702878094f38ad5843e6ac40b327720b3147ffbf669a5d9ca1974865ca6c080
+DOWNLOAD COMPLETE

@@ -1,0 +1,12 @@
+Download total GB: 18.494691896
+{"model": "Qwen/Qwen3-8B", "file": "generation_config.json", "bytes": 239, "sha256": null, "seconds": 1.4046801961958408}
+{"model": "Qwen/Qwen3-8B", "file": "config.json", "bytes": 728, "sha256": null, "seconds": 1.412580467760563}
+{"model": "Qwen/Qwen3-8B", "file": "merges.txt", "bytes": 1671853, "sha256": null, "seconds": 1.7990229353308678}
+{"model": "Qwen/Qwen3-8B", "file": "model.safetensors.index.json", "bytes": 32878, "sha256": null, "seconds": 3.31620279699564}
+{"model": "Qwen/Qwen3-8B", "file": "tokenizer.json", "bytes": 11422654, "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4", "seconds": 28.646312940865755}
+{"model": "Qwen/Qwen3-8B", "file": "tokenizer_config.json", "bytes": 9732, "sha256": null, "seconds": 3.476602789014578}
+{"model": "Qwen/Qwen3-8B", "file": "vocab.json", "bytes": 2776833, "sha256": null, "seconds": 37.38870944082737}
+{"model": "z-lab/Qwen3-8B-DFlash-b16", "file": "config.json", "bytes": 1099, "sha256": null, "seconds": 5.469935193657875}
+Retry 1: model-00003-of-00005.safetensors: ('model-00003-of-00005.safetensors', 63424632, 3959604768)
+Retry 1: model-00005-of-00005.safetensors: ('model-00005-of-00005.safetensors', 64215008, 1244659840)
+Retry 1: model-00004-of-00005.safetensors: ('model-00004-of-00005.safetensors', 68625726, 3187841392)

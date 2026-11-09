@@ -1,0 +1,47 @@
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:01<00:04,  1.06s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:02<00:03,  1.11s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:03<00:02,  1.12s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:04<00:01,  1.03s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:04<00:00,  1.28it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:04<00:00,  1.09it/s]
+USDT:2026-11-09 12:47:33 14963:14963 SyncActivityProfilerHandler.cpp:52] profiler_start
+USDT:2026-11-09 12:47:33 14963:14963 SyncActivityProfilerHandler.cpp:59] profiler_stop
+USDT:2026-11-09 12:47:33 14963:14963 SyncActivityProfilerHandler.cpp:52] profiler_start
+USDT:2026-11-09 12:47:33 14963:14963 SyncActivityProfilerHandler.cpp:59] profiler_stop
+USDT:2026-11-09 12:47:34 14963:14963 SyncActivityProfilerHandler.cpp:52] profiler_start
+USDT:2026-11-09 12:47:34 14963:14963 SyncActivityProfilerHandler.cpp:59] profiler_stop
+USDT:2026-11-09 12:47:34 14963:14963 SyncActivityProfilerHandler.cpp:52] profiler_start
+USDT:2026-11-09 12:47:34 14963:14963 SyncActivityProfilerHandler.cpp:59] profiler_stop
+DIAGNOSED code_02 first_difference 142 tokens 15316 1817 replay {'ar': True, 'dflash': True}
+USDT:2026-11-09 12:47:43 14963:14963 SyncActivityProfilerHandler.cpp:52] profiler_start
+USDT:2026-11-09 12:47:43 14963:14963 SyncActivityProfilerHandler.cpp:59] profiler_stop
+USDT:2026-11-09 12:47:43 14963:14963 SyncActivityProfilerHandler.cpp:52] profiler_start
+USDT:2026-11-09 12:47:43 14963:14963 SyncActivityProfilerHandler.cpp:59] profiler_stop
+USDT:2026-11-09 12:47:43 14963:14963 SyncActivityProfilerHandler.cpp:52] profiler_start
+USDT:2026-11-09 12:47:44 14963:14963 SyncActivityProfilerHandler.cpp:59] profiler_stop
+USDT:2026-11-09 12:47:44 14963:14963 SyncActivityProfilerHandler.cpp:52] profiler_start
+USDT:2026-11-09 12:47:44 14963:14963 SyncActivityProfilerHandler.cpp:59] profiler_stop
+DIAGNOSED code_03 first_difference 139 tokens 320 624 replay {'ar': True, 'dflash': True}
+USDT:2026-11-09 12:47:55 14963:14963 SyncActivityProfilerHandler.cpp:52] profiler_start
+USDT:2026-11-09 12:47:55 14963:14963 SyncActivityProfilerHandler.cpp:59] profiler_stop
+USDT:2026-11-09 12:47:55 14963:14963 SyncActivityProfilerHandler.cpp:52] profiler_start
+USDT:2026-11-09 12:47:56 14963:14963 SyncActivityProfilerHandler.cpp:59] profiler_stop
+USDT:2026-11-09 12:47:56 14963:14963 SyncActivityProfilerHandler.cpp:52] profiler_start
+USDT:2026-11-09 12:47:56 14963:14963 SyncActivityProfilerHandler.cpp:59] profiler_stop
+USDT:2026-11-09 12:47:56 14963:14963 SyncActivityProfilerHandler.cpp:52] profiler_start
+USDT:2026-11-09 12:47:57 14963:14963 SyncActivityProfilerHandler.cpp:59] profiler_stop
+DIAGNOSED code_04 first_difference 100 tokens 220 198 replay {'ar': True, 'dflash': True}
+USDT:2026-11-09 12:48:05 14963:14963 SyncActivityProfilerHandler.cpp:52] profiler_start
+USDT:2026-11-09 12:48:05 14963:14963 SyncActivityProfilerHandler.cpp:59] profiler_stop
+USDT:2026-11-09 12:48:05 14963:14963 SyncActivityProfilerHandler.cpp:52] profiler_start
+USDT:2026-11-09 12:48:05 14963:14963 SyncActivityProfilerHandler.cpp:59] profiler_stop
+USDT:2026-11-09 12:48:06 14963:14963 SyncActivityProfilerHandler.cpp:52] profiler_start
+USDT:2026-11-09 12:48:06 14963:14963 SyncActivityProfilerHandler.cpp:59] profiler_stop
+USDT:2026-11-09 12:48:06 14963:14963 SyncActivityProfilerHandler.cpp:52] profiler_start
+USDT:2026-11-09 12:48:06 14963:14963 SyncActivityProfilerHandler.cpp:59] profiler_stop
+DIAGNOSED math_02 first_difference 88 tokens 532 92 replay {'ar': True, 'dflash': True}
+USDT:2026-11-09 12:48:12 14963:14963 SyncActivityProfilerHandler.cpp:52] profiler_start
+USDT:2026-11-09 12:48:12 14963:14963 SyncActivityProfilerHandler.cpp:59] profiler_stop
+USDT:2026-11-09 12:48:12 14963:14963 SyncActivityProfilerHandler.cpp:52] profiler_start
+USDT:2026-11-09 12:48:12 14963:14963 SyncActivityProfilerHandler.cpp:59] profiler_stop
+USDT:2026-11-09 12:48:13 14963:14963 SyncActivityProfilerHandler.cpp:52] profiler_start
+USDT:2026-11-09 12:48:13 14963:14963 SyncActivityProfilerHandler.cpp:59] profiler_stop
+USDT:2026-11-09 12:48:13 14963:14963 SyncActivityProfilerHandler.cpp:52] profiler_start
+USDT:2026-11-09 12:48:13 14963:14963 SyncActivityProfilerHandler.cpp:59] profiler_stop
+DIAGNOSED qa_02 first_difference 37 tokens 3720 16566 replay {'ar': True, 'dflash': True}
+DIAGNOSTICS COMPLETE

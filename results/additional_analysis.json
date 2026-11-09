@@ -1,0 +1,55 @@
+{
+  "matched_prompt_ids": [
+    "code_01",
+    "math_01",
+    "math_03",
+    "qa_01",
+    "qa_03"
+  ],
+  "exact_output_subset": {
+    "methods": {
+      "ar": {
+        "runs": 15,
+        "generated_tokens": 2763,
+        "total_elapsed_s": 94.91232741624117,
+        "tokens_per_s": 29.11107624495153,
+        "peak_allocated_bytes": 18533373440,
+        "peak_reserved_bytes": 18620612608,
+        "peak_device_bytes": 19685113856
+      },
+      "dflash": {
+        "runs": 15,
+        "generated_tokens": 2763,
+        "total_elapsed_s": 24.627343758940697,
+        "tokens_per_s": 112.19236743698443,
+        "peak_allocated_bytes": 18564498944,
+        "peak_reserved_bytes": 18620612608,
+        "peak_device_bytes": 19685113856
+      }
+    },
+    "total_time_speedup": 3.853940901839414,
+    "throughput_ratio": 3.8539409018394135,
+    "per_prompt_speedup": {
+      "code_01": 6.69324045482288,
+      "math_01": 5.492544657144481,
+      "math_03": 5.0075737724087634,
+      "qa_01": 1.9220006632555908,
+      "qa_03": 1.5456331554590417
+    },
+    "prompt_speedup_median": 5.0075737724087634,
+    "prompt_speedup_range": [
+      1.5456331554590417,
+      6.69324045482288
+    ],
+    "equal_pairs": 15,
+    "total_pairs": 15,
+    "mean_acceptance_length": 5.339080459770115
+  },
+  "diagnostic_replay_reproduced_all_formal_differences": true,
+  "identical_cache_query_width_argmax_changes": [
+    "math_02"
+  ],
+  "forced_math_query_width_argmax_changes": [
+    "math_02"
+  ]
+}

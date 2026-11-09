@@ -1,0 +1,48 @@
+{
+  "methods": {
+    "ar": {
+      "runs": 30,
+      "generated_tokens": 5706,
+      "total_elapsed_s": 196.15243147686124,
+      "tokens_per_s": 29.089621561347293,
+      "peak_allocated_bytes": 18533373440,
+      "peak_reserved_bytes": 18620612608,
+      "peak_device_bytes": 19685113856
+    },
+    "dflash": {
+      "runs": 30,
+      "generated_tokens": 5610,
+      "total_elapsed_s": 47.45692081004381,
+      "tokens_per_s": 118.21247363382868,
+      "peak_allocated_bytes": 18565051904,
+      "peak_reserved_bytes": 18620612608,
+      "peak_device_bytes": 19685113856
+    }
+  },
+  "total_time_speedup": 4.133273464201399,
+  "throughput_ratio": 4.0637336372537405,
+  "per_prompt_speedup": {
+    "code_01": 6.69324045482288,
+    "code_02": 4.244541601604537,
+    "code_03": 4.448468503059795,
+    "code_04": 6.071967115839941,
+    "math_01": 5.492544657144481,
+    "math_02": 8.030393483772563,
+    "math_03": 5.0075737724087634,
+    "qa_01": 1.9220006632555908,
+    "qa_02": 1.6508277800189208,
+    "qa_03": 1.5456331554590417
+  },
+  "prompt_speedup_median": 4.728021137734279,
+  "prompt_speedup_range": [
+    1.5456331554590417,
+    8.030393483772563
+  ],
+  "equal_pairs": 15,
+  "total_pairs": 30,
+  "mean_acceptance_length": 5.62089552238806,
+  "within_method_repeat_consistency": {
+    "ar": true,
+    "dflash": true
+  }
+}

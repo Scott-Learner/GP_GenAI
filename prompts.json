@@ -1,0 +1,12 @@
+[
+ {"id":"code_01","category":"code","prompt":"Write a Python function that returns the first n Fibonacci numbers. Include type hints and one example."},
+ {"id":"code_02","category":"code","prompt":"Write a Python function to check whether a string has balanced parentheses. Briefly explain its time complexity."},
+ {"id":"code_03","category":"code","prompt":"Write a SQL query to find the three customers with the highest total order amount from orders(customer_id, amount). Explain the query briefly."},
+ {"id":"code_04","category":"code","prompt":"Implement binary search for a sorted list of integers in Python. Return -1 if the value is absent."},
+ {"id":"math_01","category":"math","prompt":"How many positive whole-number divisors does 196 have? Show the factorization and answer."},
+ {"id":"math_02","category":"math","prompt":"Solve 3x + 7 = 28 and verify your answer by substitution."},
+ {"id":"math_03","category":"math","prompt":"A fair six-sided die is rolled twice. What is the probability that the sum is 8? Show your reasoning briefly."},
+ {"id":"qa_01","category":"qa","prompt":"Explain the difference between RAM and SSD storage in three concise bullet points."},
+ {"id":"qa_02","category":"qa","prompt":"Why does the sky appear blue during the day? Answer in one short paragraph."},
+ {"id":"qa_03","category":"qa","prompt":"Give three practical ways to reduce household water use, with one sentence explaining each."}
+]

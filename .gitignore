@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.cache/
+models/
+*.safetensors
+*.bin
+results-rerun*/
